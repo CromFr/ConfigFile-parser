@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1342641880 source:/home/crom/GitProjects/ConfigFileParser/example/main.cpp
+	<iostream>
+	<vector>
+	"../src/ConfigFile.hpp"
+
+1342639897 /home/crom/GitProjects/ConfigFileParser/src/ConfigFile.hpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+
+1342641724 source:/home/crom/GitProjects/ConfigFileParser/src/ConfigFile.cpp
+	"ConfigFile.hpp"
+
