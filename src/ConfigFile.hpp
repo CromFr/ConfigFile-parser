@@ -77,7 +77,7 @@ class ConfigFile
 
 	/**
 	@brief Errors casted by the ConfigFile
-	@note You can have a reprentative string whith @see string GetErrorString(enum Error e)
+	@see string GetErrorString(enum Error e)
 	**/
     enum Error
     {
@@ -106,14 +106,6 @@ class ConfigFile
     **/
     ConfigFile();
 //================================================================================
-    /**
-    @brief Construct and load the config file
-    @param cPath Path to the config file
-    @param bCreateIfNotExists If true, an empty file will be created if it doesn't exist. If false and the config file doesn't exist, the file will not be loaded.
-    @note You may prefer to use Load(...) to get the generated error
-    **/
-    ConfigFile(const char* cPath, bool bCreateIfNotExists=false);
-//================================================================================
 	/**
 	@brief Load the config file
     @param cPath Path to the config file
@@ -124,7 +116,6 @@ class ConfigFile
     /**
     @brief Save the current config to the config file
     @arg sNewFile The path to the config file to be written. If void, will save to the config file that has been used in the last Load()
-    @warning if cNewFile="" (default), the file used in last Loading MUST BE OPENED !
     **/
     enum Error WriteToFile(const char* cNewFile=0);
 //================================================================================

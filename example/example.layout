@@ -2,7 +2,7 @@
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Release" />
 	<File name="main.cpp" open="1" top="1" tabpos="0">
-		<Cursor position="251" topLine="0" />
+		<Cursor position="89" topLine="0" />
 	</File>
 	<File name="../src/ConfigFile.cpp" open="0" top="0" tabpos="0">
 		<Cursor position="4370" topLine="165" />
