@@ -13,3 +13,19 @@
 1342641724 source:/home/crom/GitProjects/ConfigFileParser/src/ConfigFile.cpp
 	"ConfigFile.hpp"
 
+1365769292 source:c:\users\administrateur\desktop\configfile-parser\src\configfile.cpp
+	"ConfigFile.hpp"
+	<iostream>
+	<fstream>
+	<map>
+
+1365773034 c:\users\administrateur\desktop\configfile-parser\src\configfile.hpp
+	<sstream>
+	<vector>
+	<unordered_map>
+
+1365792687 source:c:\users\administrateur\desktop\configfile-parser\example\main.cpp
+	<iostream>
+	<vector>
+	"../src/ConfigFile.hpp"
+
